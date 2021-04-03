@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { ContainerWrapper } from './LeftContainer-styles'
 
 export const LeftContainer = () => {
     return (
-        <div>
+        <ContainerWrapper>
 
             <div class="top-bar">
 
@@ -12,6 +13,6 @@ export const LeftContainer = () => {
                 </div>
             </div>    
             
-        </div>
+        </ContainerWrapper>
     )
 }
