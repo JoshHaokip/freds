@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {LeftContainer} from '../../components';
+import { AboutContainer } from '../../components/AboutContainer/AboutContainer';
+
 
 export const About = () => {
     return (
         <div>
-            <h1>About</h1>
+
+            <LeftContainer />
+            <AboutContainer />
+
+
+
         </div>
     )
 }
