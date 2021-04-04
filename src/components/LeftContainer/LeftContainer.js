@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
+import { Weather } from '../Weather/Weather';
 import { ContainerWrapper, SectionWrapper } from './LeftContainer-styles';
 
 export const LeftContainer = () => {
@@ -14,6 +15,8 @@ export const LeftContainer = () => {
                 </div>   
 
                 <Navbar />
+                
+                <Weather />
 
             </SectionWrapper>
             
