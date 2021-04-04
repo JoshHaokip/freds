@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Navcontainer = styled.div`
 
-    font-size: 22px;
+    font-size: 15px;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -21,8 +21,6 @@ export const Navcontainer = styled.div`
     .home {
         font-weight: bolder;
     }
-
-
 
 
 `
