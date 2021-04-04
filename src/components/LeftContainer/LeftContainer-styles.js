@@ -8,8 +8,14 @@ export const ContainerWrapper = styled.div`
     float: left;
     display: flex;
     flex-direction: column;
-    background-color: salmon;
+    background-color: white;
     justify-content: flex-start;
+
+`
+
+export const SectionWrapper = styled.div`
+
+    padding-left: 7.5%;
 
     .logo{
         display: flex;
@@ -18,10 +24,11 @@ export const ContainerWrapper = styled.div`
 
     h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 42px;
     letter-spacing: 7.5px;
     font-weight: 900;
     margin-top: 15%;
 }
+
 
 `

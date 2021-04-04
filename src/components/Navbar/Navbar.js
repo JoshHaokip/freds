@@ -1,13 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import {Navcontainer} from './Navbar-styles'
 
 export const Navbar = () => {
-    return (
-        <div>
 
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
+    return (
+        <Navcontainer>
+
+            <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/'>HOME</NavLink>
+            <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/about'>ABOUT</NavLink>
             
-        </div>
-    )
+        </Navcontainer>
+    ) 
 }
+
+
+
+/* className={activeLink === home ? `active-navlink` : `normal-navlink`} */

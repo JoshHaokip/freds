@@ -1,17 +1,21 @@
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
-import { ContainerWrapper } from './LeftContainer-styles';
+import { ContainerWrapper, SectionWrapper } from './LeftContainer-styles';
 
 export const LeftContainer = () => {
+
     return (
         <ContainerWrapper>
 
-            <div class="logo">
-                <h1>EAST CAFE</h1>
-            </div>   
+            <SectionWrapper>
 
-            <Navbar />
+                <div class="logo">
+                    <h1>EAST CAFE</h1>
+                </div>   
 
+                <Navbar />
+
+            </SectionWrapper>
             
         </ContainerWrapper>
     )
