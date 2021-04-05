@@ -15,9 +15,9 @@ export const HomeContainer = () => {
             {imageList.map(img => {
                 return (
 
-                    <SectionWrapper>
+                    <SectionWrapper key={img.id}>
 
-                        <img className='box' key={img.id} src={img.img}></img>
+                        <img className='box' src={img.img}></img>
 
                     </SectionWrapper>
                 

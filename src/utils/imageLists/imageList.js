@@ -24,11 +24,11 @@ export const imageList = [
         img: '/static/media/herbs.435f1b3e.jpg',
     },
     {
-        id: 6,
+        id: 7,
         img: '/static/media/flour.93749d04.jpg',
     },
     {
-        id: 6,
+        id: 8,
         img: '/static/media/bread.42ee300a.jpg',
     },
 ]
