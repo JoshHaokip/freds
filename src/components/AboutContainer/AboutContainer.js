@@ -1,4 +1,5 @@
 import React from 'react';
+import { Map } from '../Map/Map';
 import { ContainerWrapper, TextWrapper } from './AboutContainer-styles'
 
 export const AboutContainer = () => {
@@ -16,14 +17,13 @@ export const AboutContainer = () => {
                         All our pastries are baked in house fresh every day, our food is made from scratch or sourced locally with premium meats, free range farm eggs, fresh seasonally selected fruit and vegetables – all provided by suppliers who share the same values as we do! Simple, sustainable, inspired, tasty and never pretentious! 
                     </p>
 
-                    <p>
+                    <p className='lastText'>
                         Finally, we look forward to welcoming you soon, and hope that you too, become a Fred’s regular, if you’re not already! Oh, and don’t forget to get/stamp your lovely loyalty card too!
                     </p>
 
-                    
-
-
                 </main>
+
+                <Map />
 
             </TextWrapper>
      

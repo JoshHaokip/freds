@@ -22,4 +22,8 @@ export const TextWrapper = styled.div`
         margin-top: 5%;
     }
 
+    .lastText {
+        margin-bottom: 70px;
+    }
+
 `
