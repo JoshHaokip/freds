@@ -6,6 +6,10 @@ export const WeatherContainer = styled.div`
     flex-direction: row;
     justify-items: flex-start;
     
+    img {
+        height: 100px;
+        width: 100px;
+    }
 
     h2 {
     

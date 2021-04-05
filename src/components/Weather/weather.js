@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {WeatherContainer} from './Weather-styles'
+import {WeatherContainer} from './Weather-styles';
 
 
 const api = {
@@ -29,9 +29,8 @@ export const Weather = () => {
     return (
         <WeatherContainer>
 
-            {/* <h2>{weatherData.weather ? weatherData.wind.speed : null}</h2> */}
-            <h2>Sunny</h2>
-            <h2>18°</h2>
+            <h2>{weatherData.weather ? weatherData.weather[0].main : null}</h2>
+            <h2>{Math.round(weatherData.weather ? weatherData.main.temp : null) }°</h2>
             <h2>Brockly</h2>
   
         </WeatherContainer>
