@@ -5,7 +5,7 @@ import {Icon} from './Map-styles'
 
 
 
-const MAPBOX_TOKEN = 'pk.eyJ1Ijoiam9zaGhhb2tpcCIsImEiOiJja240dmNhb2IwbGZ2MnBzOWl2dWxmNXBxIn0.kaSPWi9vNbaX4kWxfGxcQw'
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_API_KEY;
 
 export const Map = () => {
 
