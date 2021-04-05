@@ -27,8 +27,49 @@ export const SectionWrapper = styled.div`
     font-size: 42px;
     letter-spacing: 7.5px;
     font-weight: 900;
-    margin-top: 15%;
+    margin-top: 10%;
 }
+
+
+`
+
+export const Text = styled.p`
+    margin-top: 20px;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+
+
+`
+
+export const OpeningTime = styled.div`
+
+    margin-top: 40px;
+
+    h3 {
+        font-size: 18px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 25px;
+        padding: 0px;
+    }
+
+    ul li {
+        list-style: none;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+
 
 
 `
