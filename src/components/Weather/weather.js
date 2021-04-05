@@ -21,6 +21,7 @@ export const Weather = () => {
         .then(res => res.json())
         .then(result => {
             setWeatherData(result);
+            console.log(result)
         })
 
     }, [])
