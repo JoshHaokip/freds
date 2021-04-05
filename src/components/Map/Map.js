@@ -26,7 +26,7 @@ export const Map = () => {
 
                 {...viewport}
                 width="100%"
-                height="600px"
+                height="550px"
                 mapStyle="mapbox://styles/mapbox/dark-v10"
                 onViewportChange={setViewPort}
                 mapboxApiAccessToken={MAPBOX_TOKEN}

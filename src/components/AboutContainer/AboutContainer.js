@@ -9,6 +9,7 @@ export const AboutContainer = () => {
             <TextWrapper>
 
                 <main>
+                    <h3> Who's Fred? </h3>
                     <p> 
                         Fred’s was born for the love of cake, fresh good quality food and fabulous coffee! We named it after Fred, a food loving, coffee drinking Yorkshireman who’s knocking 90 – and who also happens to be my Dad. 
                     </p>

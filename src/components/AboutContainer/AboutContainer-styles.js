@@ -13,10 +13,15 @@ export const ContainerWrapper = styled.div`
 
 export const TextWrapper = styled.div`
 
-    margin: 5% 12% 0% 12%;
+    margin: 0% 12% 0% 12%;
     letter-spacing: 2px;
     line-height: 35px;
     font-size: 13px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
 
     p {
         margin-top: 5%;
