@@ -11,7 +11,7 @@ export const LeftContainer = () => {
 
             <SectionWrapper>
 
-                <div class="logo">
+                <div className="logo">
                     <h1>EAST CAFE</h1>
                 </div>   
 
