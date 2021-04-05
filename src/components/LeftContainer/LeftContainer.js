@@ -12,7 +12,7 @@ export const LeftContainer = () => {
             <SectionWrapper>
 
                 <div className="logo">
-                    <h1>EAST CAFE</h1>
+                    <h1>FRED's</h1>
                 </div>   
 
                 <Navbar />

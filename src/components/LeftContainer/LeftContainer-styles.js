@@ -24,8 +24,8 @@ export const SectionWrapper = styled.div`
 
     h1 {
     text-align: left;
-    font-size: 42px;
-    letter-spacing: 5px;
+    font-size: 58px;
+    letter-spacing: 10px;
     font-weight: 900;
     margin-top: 5%;
 }
