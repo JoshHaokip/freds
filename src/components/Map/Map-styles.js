@@ -12,7 +12,7 @@ export const MapContainer = styled.div`
 
 export const Icon = styled.div`
 
-    color: white;
+    color: orangered;
     
     .mapicon{
         height: 40px;
