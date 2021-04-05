@@ -15,7 +15,7 @@ export const ContainerWrapper = styled.div`
 
 export const SectionWrapper = styled.div`
 
-    padding-left: 7.5%;
+    padding-left: 10%;
 
     .logo{
         display: flex;
