@@ -1,11 +1,28 @@
 import React from 'react';
-import { ContainerWrapper } from './HomeContainer-styles'
+import { ContainerWrapper, SectionWrapper } from './HomeContainer-styles';
+import {imageList} from '../../utils/imageLists/imageList'
+
 
 export const HomeContainer = () => {
+
+
+    console.log(imageList)
+
+
     return (
         <ContainerWrapper>
 
-            <h1>Home</h1>
+            {imageList.map(img => {
+                return (
+
+                    <SectionWrapper>
+
+                        <img className='box' key={img.id} src={img.img}></img>
+
+                    </SectionWrapper>
+                
+                )
+            })}
      
 
         </ContainerWrapper>

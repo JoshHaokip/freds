@@ -15,7 +15,7 @@ export const ContainerWrapper = styled.div`
 
 export const SectionWrapper = styled.div`
 
-    padding-left: 10%;
+    padding-left: 11%;
 
     .logo{
         display: flex;
@@ -25,9 +25,9 @@ export const SectionWrapper = styled.div`
     h1 {
     text-align: left;
     font-size: 42px;
-    letter-spacing: 7.5px;
+    letter-spacing: 5px;
     font-weight: 900;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 
