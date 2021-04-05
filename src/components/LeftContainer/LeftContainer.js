@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
+import { Social } from '../Social/Social';
 import { Weather } from '../Weather/Weather';
-import { ContainerWrapper, SectionWrapper, Text, OpeningTime } from './LeftContainer-styles';
+import { ContainerWrapper, SectionWrapper, Text, OpeningTime, Signature } from './LeftContainer-styles';
 
 export const LeftContainer = () => {
 
@@ -18,6 +19,8 @@ export const LeftContainer = () => {
                 
                 <Weather />
 
+                <Social />
+
                 <Text>Family run cafe offering coffee, refreshing drinks, breakfast, lunch and amazing pastries</Text>
 
                 <OpeningTime>
@@ -30,6 +33,8 @@ export const LeftContainer = () => {
                     </ul>
 
                 </OpeningTime>
+
+                <Signature>by josh haokip</Signature>
 
             </SectionWrapper>
             

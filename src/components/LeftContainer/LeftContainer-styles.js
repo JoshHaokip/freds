@@ -34,7 +34,7 @@ export const SectionWrapper = styled.div`
 `
 
 export const Text = styled.p`
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 12.5px;
     font-weight: 400;
     letter-spacing: 1.3px;
@@ -45,7 +45,7 @@ export const Text = styled.p`
 
 export const OpeningTime = styled.div`
 
-    margin-top: 40px;
+    margin-top: 35px;
 
     h3 {
         font-size: 18px;
@@ -69,7 +69,12 @@ export const OpeningTime = styled.div`
         margin-bottom: 20px;
     }
 
+`
 
+export const Signature = styled.p`
 
+    margin-top: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
 
 `
