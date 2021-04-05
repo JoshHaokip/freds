@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MapGL, {Marker} from 'react-map-gl';
 import {BiMap} from 'react-icons/bi';
-import {Icon} from './Map-styles'
+import {MapContainer, Icon} from './Map-styles'
 
 
 
@@ -16,34 +16,45 @@ export const Map = () => {
     })
 
     return (
+
+        <MapContainer>
+
+            <h3> Find Fred </h3>
+
+                        
+            <MapGL 
+
+                {...viewport}
+                width="100%"
+                height="600px"
+                mapStyle="mapbox://styles/mapbox/dark-v10"
+                onViewportChange={setViewPort}
+                mapboxApiAccessToken={MAPBOX_TOKEN}
+                >
+
+                <Marker 
+                        latitude={51.4549886} 
+                        longitude={-0.037272} 
+                        offsetLeft={-20} 
+                        offsetTop={-10}
+                    >
+
+                    <Icon>
+
+                        <BiMap className='mapicon'/> 
+
+                    </Icon>
+                        
+
+                </Marker>
+
+            </ MapGL>
+
+
+
+        </MapContainer>
         
-        <MapGL 
 
-            {...viewport}
-            width="100%"
-            height="600px"
-            mapStyle="mapbox://styles/mapbox/dark-v10"
-            onViewportChange={setViewPort}
-            mapboxApiAccessToken={MAPBOX_TOKEN}
-        >
-
-            <Marker 
-                latitude={51.4549886} 
-                longitude={-0.037272} 
-                offsetLeft={-20} 
-                offsetTop={-10}
-            >
-
-            <Icon>
-
-                <BiMap className='mapicon'/> 
-
-            </Icon>
-                
-
-            </Marker>
-        
-        </ MapGL>
 
     )
 }
