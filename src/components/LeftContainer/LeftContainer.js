@@ -23,7 +23,7 @@ export const LeftContainer = () => {
                         <h1>FRED's</h1>
                     </div> 
 
-                    <div classname="mobilenav">
+                    <div className="mobilenav">
                         <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/'>HOME</NavLink>
                         <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/about'>ABOUT</NavLink>
                     </div>

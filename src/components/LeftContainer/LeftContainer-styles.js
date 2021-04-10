@@ -133,10 +133,10 @@ export const MobileHeading = styled.div`
     }
 
     .mobilenav {
-        font-size: 20px;
+        font-size: 18px;
         display: flex;
         flex-direction: row;
-        padding-bottom: 10px;
+        
     }
 
     .nav {
