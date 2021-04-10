@@ -21,5 +21,9 @@ export const Navcontainer = styled.div`
         font-weight: bolder;
     }
 
+    @media only screen and (max-width: 748px) {
+        display: none;
+    }
+
 
 `

@@ -26,6 +26,9 @@ export const AboutContainer = () => {
 
                 <Map />
 
+                <br />
+                <br />
+
             </TextWrapper>
      
         </ContainerWrapper>

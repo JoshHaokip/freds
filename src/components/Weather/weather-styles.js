@@ -20,5 +20,9 @@ export const WeatherContainer = styled.div`
 
     }
 
+    @media only screen and (max-width: 748px) {
+        display: none;
+    }
+
 `
 

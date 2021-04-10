@@ -18,4 +18,8 @@ export const Icons = styled.div`
         
     }
 
+    @media only screen and (max-width: 748px) {
+        display: none;
+    }
+
 `

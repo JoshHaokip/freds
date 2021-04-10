@@ -11,6 +11,16 @@ export const ContainerWrapper = styled.div`
     background-color: white;
     justify-content: flex-start;
 
+    @media only screen and (max-width: 748px) {
+
+        float: none;
+        width: 100%;
+        position: relative;
+        height: fit-content;
+        margin-top: 10px;
+
+    }
+
 `
 
 export const SectionWrapper = styled.div`
@@ -28,9 +38,7 @@ export const SectionWrapper = styled.div`
     letter-spacing: 10px;
     font-weight: 900;
     margin-top: 5%;
-}
-
-
+    }
 `
 
 export const Text = styled.p`
@@ -39,6 +47,11 @@ export const Text = styled.p`
     font-weight: 400;
     letter-spacing: 1.3px;
     line-height: 25px;
+
+    @media only screen and (max-width: 748px) {
+
+        display: none; 
+    }
 
 
 `
@@ -69,6 +82,11 @@ export const OpeningTime = styled.div`
         margin-bottom: 20px;
     }
 
+    @media only screen and (max-width: 748px) {
+
+        display: none; 
+    }
+
 `
 
 export const Signature = styled.p`
@@ -76,5 +94,10 @@ export const Signature = styled.p`
     margin-top: 30px;
     font-size: 10px;
     letter-spacing: 2px;
+
+    @media only screen and (max-width: 748px) {
+
+        display: none; 
+    }
 
 `
