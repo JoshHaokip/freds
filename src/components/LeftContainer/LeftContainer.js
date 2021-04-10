@@ -1,14 +1,14 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import { Navbar } from '../Navbar/Navbar';
-import { Sidebar } from '../Sidebar/Sidebar';
 import { Social } from '../Social/Social';
 import { Weather } from '../Weather/Weather';
-import { ContainerWrapper, SectionWrapper, Text, OpeningTime, Signature, HamburgerMenu, MobileHeading, Logo } from './LeftContainer-styles';
-import Hamburger from 'hamburger-react'
+import { ContainerWrapper, SectionWrapper, Text, OpeningTime, Signature, MobileHeading, Logo} from './LeftContainer-styles';
 
 export const LeftContainer = () => {
 
     return (
+
         <ContainerWrapper>
 
             <SectionWrapper>
@@ -23,15 +23,10 @@ export const LeftContainer = () => {
                         <h1>FRED's</h1>
                     </div> 
 
-                    <HamburgerMenu>
-
-                        <Hamburger
-                            size={40}
-                        >
-                            <Sidebar />
-                        </Hamburger>
-
-                    </HamburgerMenu>
+                    <div classname="mobilenav">
+                        <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/'>HOME</NavLink>
+                        <NavLink className='nav' activeStyle={{fontWeight: 'bold'}} exact to='/about'>ABOUT</NavLink>
+                    </div>
 
                 </MobileHeading>        
 
@@ -57,6 +52,8 @@ export const LeftContainer = () => {
                 <Signature>by josh haokip</Signature>
 
             </SectionWrapper>
+
+            
             
         </ContainerWrapper>
     )

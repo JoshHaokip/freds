@@ -120,35 +120,37 @@ export const Signature = styled.p`
 export const MobileHeading = styled.div`
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    overflow-x: none;
+    overflow-y: none;
     
     .logo h1{
-        font-size: 60px;
-    }
-
-    @media only screen and (min-width: 748px) {
-        display: none;
-    }
-
-`
-
-export const HamburgerMenu = styled.div`
-
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-    margin-right: 2px;
-
-
-    .hamburger-react {
+        font-size: 50px;
         margin: 0;
-        padding: 0;
+        padding-bottom: 18px;
+    }
+
+    .mobilenav {
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+    }
+
+    .nav {
+        margin-right: 25px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        letter-spacing: 3px;
+        font-weight: 100;
+
     }
 
     @media only screen and (min-width: 748px) {
         display: none;
     }
-
 
 `
