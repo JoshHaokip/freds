@@ -1,8 +1,10 @@
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
+import { Sidebar } from '../Sidebar/Sidebar';
 import { Social } from '../Social/Social';
 import { Weather } from '../Weather/Weather';
-import { ContainerWrapper, SectionWrapper, Text, OpeningTime, Signature } from './LeftContainer-styles';
+import { ContainerWrapper, SectionWrapper, Text, OpeningTime, Signature, HamburgerMenu, MobileHeading, Logo } from './LeftContainer-styles';
+import Hamburger from 'hamburger-react'
 
 export const LeftContainer = () => {
 
@@ -11,9 +13,27 @@ export const LeftContainer = () => {
 
             <SectionWrapper>
 
-                <div className="logo">
+                <Logo>
                     <h1>FRED's</h1>
-                </div>   
+                </Logo> 
+
+                <MobileHeading>
+
+                    <div className="logo">
+                        <h1>FRED's</h1>
+                    </div> 
+
+                    <HamburgerMenu>
+
+                        <Hamburger
+                            size={40}
+                        >
+                            <Sidebar />
+                        </Hamburger>
+
+                    </HamburgerMenu>
+
+                </MobileHeading>        
 
                 <Navbar />
                 

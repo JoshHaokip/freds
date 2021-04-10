@@ -23,14 +23,21 @@ export const ContainerWrapper = styled.div`
 
 `
 
+export const Logo = styled.div`
+
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 748px) {
+
+        display: none;      
+    }
+
+`
+
 export const SectionWrapper = styled.div`
 
     padding-left: 11%;
-
-    .logo{
-        display: flex;
-        align-items: center;
-    }
 
     h1 {
     text-align: left;
@@ -43,6 +50,7 @@ export const SectionWrapper = styled.div`
     @media only screen and (max-width: 748px) {
 
         padding-left: 2%;      
+
     }
 
 
@@ -106,5 +114,41 @@ export const Signature = styled.p`
 
         display: none; 
     }
+
+`
+
+export const MobileHeading = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .logo h1{
+        font-size: 60px;
+    }
+
+    @media only screen and (min-width: 748px) {
+        display: none;
+    }
+
+`
+
+export const HamburgerMenu = styled.div`
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 2px;
+
+
+    .hamburger-react {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media only screen and (min-width: 748px) {
+        display: none;
+    }
+
 
 `
