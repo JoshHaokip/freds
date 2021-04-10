@@ -39,6 +39,13 @@ export const SectionWrapper = styled.div`
     font-weight: 900;
     margin-top: 5%;
     }
+
+    @media only screen and (max-width: 748px) {
+
+        padding-left: 2%;      
+    }
+
+
 `
 
 export const Text = styled.p`
@@ -50,7 +57,7 @@ export const Text = styled.p`
 
     @media only screen and (max-width: 748px) {
 
-        display: none; 
+        display: none;      
     }
 
 
