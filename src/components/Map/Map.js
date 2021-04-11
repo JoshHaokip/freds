@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import MapGL, {Marker} from 'react-map-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 import {BiMap} from 'react-icons/bi';
 import {MapContainer, Icon} from './Map-styles'
 
