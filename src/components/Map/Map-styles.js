@@ -8,6 +8,14 @@ export const MapContainer = styled.div`
         font-weight: 600;
     }
 
+    @media only screen and (max-width: 748px) {
+
+        h3 {
+            margin-top: 20px;
+            padding-bottom: 5px;
+        }      
+    }
+
 `
 
 export const Icon = styled.div`

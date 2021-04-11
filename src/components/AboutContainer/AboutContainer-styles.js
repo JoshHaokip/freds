@@ -48,7 +48,7 @@ export const TextWrapper = styled.div`
 
 export const MobileTextWrapper = styled.div`
 
-    width: 95%;
+    width: 97%;
     height: 100%;
     line-height: 40px;
     letter-spacing: 0.5px;
@@ -65,8 +65,7 @@ export const MobileTextWrapper = styled.div`
     }
 
     .carousel__inner-slide {
-        width: calc(100% - 10px);
-        padding-right: 10px;
+        width: 100%;
     }
 
     @media only screen and (min-width: 748px) {

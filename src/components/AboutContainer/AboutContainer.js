@@ -40,7 +40,7 @@ export const AboutContainer = () => {
                     totalSlides={2}
                 >
                     <Slider>
-                        <Slide index={0}>
+                        <Slide index={0} className="slide1">
 
                             <h3> Who's Fred? </h3>
                             <p> 
