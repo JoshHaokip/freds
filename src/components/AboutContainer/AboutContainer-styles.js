@@ -8,6 +8,14 @@ export const ContainerWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media only screen and (max-width: 748px) {
+
+        display: flex;
+        justify-content: center;
+        width: 98%;  
+        height: 100%;   
+    }
     
 `
 
@@ -29,6 +37,41 @@ export const TextWrapper = styled.div`
 
     .lastText {
         margin-bottom: 70px;
+    }
+
+    @media only screen and (max-width: 748px) {
+
+        display: none;      
+    }
+
+`
+
+export const MobileTextWrapper = styled.div`
+
+    width: 95%;
+    height: 100%;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    p {
+        font-weight: 300;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .carousel__inner-slide {
+        width: calc(100% - 10px);
+        padding-right: 10px;
+    }
+
+    @media only screen and (min-width: 748px) {
+
+        display: none;      
     }
 
 `
