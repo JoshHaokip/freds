@@ -4,7 +4,7 @@ import {WeatherContainer} from './Weather-styles';
 
 const api = {
 
-    key: process.env.REACT_APP_Weather_API_KEY,
+    key: '56e2b59449521ed4c227c2f20edaca52',
     base: 'https://api.openweathermap.org/data/2.5/',
     lat: 51.45460,
     lon: -0.03777,
